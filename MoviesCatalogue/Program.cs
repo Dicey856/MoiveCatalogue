@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using MoviesCatalogue.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
+string connectionString = builder.Configuration.GetConnectionString("ApplicationContextConnectionString") ??
+    throw new InvalidDataException("Connection string ApplicationContextConnectionString is not found.");
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationContext>(context =>
+    context.UseMySQL(connectionString));
 
 var app = builder.Build();
 
