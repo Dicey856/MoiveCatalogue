@@ -1,0 +1,21 @@
+﻿@model List<Category>
+
+<h1 style="text-align:center;">Categories</h1>
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>Category name</th>
+        <th>Category id</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.Id</td>
+            </tr>
+        }
+    </tbody>
+</table>
