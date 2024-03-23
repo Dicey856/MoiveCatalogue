@@ -1,0 +1,21 @@
+﻿@model Movie
+
+<form method="post">
+    <div class="container mt-1">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="@Model.ImageUrl" alt="Movie Cover" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h1 class="mb-3">@Model.Title</h1>
+                <p class="lead">@Model.Category.Name</p>
+                <p class="lead">@Model.Rating</p>
+                <p class="lead">Director: @Model.Director</p>
+                <p>@Model.Description</p>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-3">
+                    Back
+                </a>
+            </div>
+        </div>
+    </div>
+</form>

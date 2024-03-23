@@ -1,3 +1,5 @@
+@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
+
 /* _content/MoviesCatalogue/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -8,9 +10,9 @@ a.navbar-brand[b-gwg9jljs62] {
   word-break: break-all;
 }
 
-a[b-gwg9jljs62] {
+/*a {
   color: #0077cc;
-}
+}*/
 
 .btn-primary[b-gwg9jljs62] {
   color: #fff;

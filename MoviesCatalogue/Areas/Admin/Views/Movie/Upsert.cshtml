@@ -1,0 +1,55 @@
+﻿@model MovieViewModel
+
+<form method="post" enctype="multipart/form-data">
+    <input asp-for="Movie.Id" hidden />
+    <input asp-for="Movie.ImageUrl" hidden />
+    <div class="row">
+        <div class="col-4">
+            <div class="border p-3 mt-4">
+                <div class="row pb-2">
+                    <h2 class="text-primary">@(Model.Movie.Id != 0 ? "Update" : "Create") Movie</h2>
+                </div>
+                <div class="mb-3 p-0">
+                    <label asp-for="Movie.Title"></label>
+                    <input asp-for="Movie.Title" type="text" />
+                    <span asp-validation-for="Movie.Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3 p-0">
+                    <label asp-for="Movie.CategoryId" />
+                    <select asp-for="Movie.CategoryId" asp-items="@Model.CategoryList">
+                        <option disabled selected>Category</option>
+                    </select>
+                    <span asp-validation-for="Movie.CategoryId" class="text-danger"></span>
+                </div>
+                <div class="mb-3 p-0">
+                    <label asp-for="Movie.Description"></label>
+                    <input asp-for="Movie.Description" type="text" />
+                    <span asp-validation-for="Movie.Description" class="text-danger"></span>
+                </div>
+                <div class="mb-3 p-0">
+                    <label asp-for="Movie.Director"></label>
+                    <input asp-for="Movie.Director" type="text" />
+                    <span asp-validation-for="Movie.Director" class="text-danger"></span>
+                </div>
+                <div class="mb-3 p-0">
+                    <label asp-for="Movie.ImageUrl"></label>
+                    <input type="file" name="file" />
+                    <span asp-validation-for="Movie.ImageUrl" class="text-danger"></span>
+                </div>
+                <div class="mb-3 p-0">
+                    <label asp-for="Movie.Rating"></label>
+                    <input asp-for="Movie.Rating" type="ms-2" />
+                    <span asp-validation-for="Movie.Rating" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">@(Model.Movie.Id != 0 ? "Update" : "Create")</button>
+                <a asp-controller="Movie" asp-action="Index" class="btn btn-secondary">
+                    Back
+                </a>
+            </div>
+        </div>
+        <div class="col 2">
+            <img src="@Model.Movie.ImageUrl" width="270" height="450" style="border-radius:5px; border:1px solid black" />
+        </div>
+    </div>
+   
+</form>

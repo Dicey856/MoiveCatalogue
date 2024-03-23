@@ -1,0 +1,48 @@
+﻿@model Movie
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Delete Category</h2>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" type="text" disabled/>
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" type="text" disabled/>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Director"></label>
+            <input asp-for="Director" type="text" disabled/>
+            <span asp-validation-for="Director" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="CategoryId"></label>
+            <input asp-for="CategoryId" type="ms-2" disabled/>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Category"></label>
+            <input asp-for="Category" type="ms-2" disabled />
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="ImageUrl"></label>
+            <input asp-for="ImageUrl" type="ms-2" disabled />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+        <div class="mb-3 p-0">
+            <label asp-for="Rating"></label>
+            <input asp-for="Rating" type="ms-2" disabled/>
+            <span asp-validation-for="Rating" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-controller="Movie" asp-action="Index" class="btn btn-secondary">
+            Back
+        </a>
+    </div>
+</form>

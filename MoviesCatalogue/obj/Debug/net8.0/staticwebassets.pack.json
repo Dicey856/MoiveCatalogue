@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\07cff578-1b40-4a70-9dd2-629cba4c2887.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\07cff578-1b40-4a70-9dd2-629cba4c2887.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\0bce734c-abef-4211-94c8-122acb001f31.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\0bce734c-abef-4211-94c8-122acb001f31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\4cf4f0d8-268b-4888-a107-4bb241479653.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\4cf4f0d8-268b-4888-a107-4bb241479653.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\56119446-0b24-4e4d-80f8-dbd2d564c6a7.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\56119446-0b24-4e4d-80f8-dbd2d564c6a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\91337198-dd51-44e7-87a2-2d70df8ecf4e.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\91337198-dd51-44e7-87a2-2d70df8ecf4e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\e4d278a6-ff1f-401f-bdf1-7f8aceea15fa.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\e4d278a6-ff1f-401f-bdf1-7f8aceea15fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\e4dc4ed3-cdcf-4d50-89d9-e96ecb414d73.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\e4dc4ed3-cdcf-4d50-89d9-e96ecb414d73.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\ed71f39b-0e15-4f65-bf97-32a4fa798457.jpg",
+      "PackagePath": "staticwebassets\\images\\movie\\ed71f39b-0e15-4f65-bf97-32a4fa798457.jpg"
+    },
+    {
       "Id": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
