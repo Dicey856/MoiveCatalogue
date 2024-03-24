@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JI9FN6Yk/4+VeY/kEZByu3WgGcvzgobYDKP6m505Xqc=",
+  "Hash": "yCRVdkCRs427xS3GvH6uumJTVpxCboVcTxpcvO0CsHU=",
   "Source": "MoviesCatalogue",
   "BasePath": "_content/MoviesCatalogue",
   "Mode": "Default",
@@ -1328,6 +1328,25 @@
       "OriginalItemSpec": "wwwroot\\images\\movie\\4cf4f0d8-268b-4888-a107-4bb241479653.jpg"
     },
     {
+      "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\540616a4-91bb-48d7-876e-06eb4e012ad6.jpg",
+      "SourceId": "MoviesCatalogue",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\",
+      "BasePath": "_content/MoviesCatalogue",
+      "RelativePath": "images/movie/540616a4-91bb-48d7-876e-06eb4e012ad6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movie\\540616a4-91bb-48d7-876e-06eb4e012ad6.jpg"
+    },
+    {
       "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\56119446-0b24-4e4d-80f8-dbd2d564c6a7.jpg",
       "SourceId": "MoviesCatalogue",
       "SourceType": "Discovered",
@@ -1345,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movie\\56119446-0b24-4e4d-80f8-dbd2d564c6a7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\58f9f0d7-b97e-4890-a72d-cc1fa7101401.jpg",
+      "SourceId": "MoviesCatalogue",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\",
+      "BasePath": "_content/MoviesCatalogue",
+      "RelativePath": "images/movie/58f9f0d7-b97e-4890-a72d-cc1fa7101401.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movie\\58f9f0d7-b97e-4890-a72d-cc1fa7101401.jpg"
     },
     {
       "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\91337198-dd51-44e7-87a2-2d70df8ecf4e.jpg",
@@ -1402,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movie\\e4dc4ed3-cdcf-4d50-89d9-e96ecb414d73.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\eb2ff879-83a2-4d88-bc97-5e1ce4b57b3f.jpg",
+      "SourceId": "MoviesCatalogue",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\",
+      "BasePath": "_content/MoviesCatalogue",
+      "RelativePath": "images/movie/eb2ff879-83a2-4d88-bc97-5e1ce4b57b3f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movie\\eb2ff879-83a2-4d88-bc97-5e1ce4b57b3f.jpg"
     },
     {
       "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\ed71f39b-0e15-4f65-bf97-32a4fa798457.jpg",

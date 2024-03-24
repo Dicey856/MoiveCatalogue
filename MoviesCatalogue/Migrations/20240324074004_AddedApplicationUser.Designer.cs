@@ -11,8 +11,8 @@ using MoviesCatalogue.Data;
 namespace MoviesCatalogue.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240323201708_ExtendedIdentityUser")]
-    partial class ExtendedIdentityUser
+    [Migration("20240324074004_AddedApplicationUser")]
+    partial class AddedApplicationUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -329,6 +329,9 @@ namespace MoviesCatalogue.Migrations
             modelBuilder.Entity("MoviesCatalogue.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<int?>("Age")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()

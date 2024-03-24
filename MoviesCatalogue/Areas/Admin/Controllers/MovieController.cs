@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using MoviesCatalogue.Data;
 using MoviesCatalogue.Models;
 using MoviesCatalogue.Models.ViewModels;
 using MoviesCatalogue.Repository.IRepository;
@@ -10,6 +12,7 @@ using System.Net.WebSockets;
 namespace MoviesCatalogue.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = UserRoles.Role_Admin)]
     public class MovieController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

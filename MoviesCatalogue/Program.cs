@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationContext>(context =>
     context.UseMySQL(connectionString));
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>();
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();

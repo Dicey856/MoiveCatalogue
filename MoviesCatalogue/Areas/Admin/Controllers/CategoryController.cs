@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MoviesCatalogue.Data;
 using MoviesCatalogue.Models;
 using MoviesCatalogue.Repository.IRepository;
@@ -6,6 +7,7 @@ using MoviesCatalogue.Repository.IRepository;
 namespace MoviesCatalogue.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = UserRoles.Role_Admin)]
     public class CategoryController : Controller
     {
 

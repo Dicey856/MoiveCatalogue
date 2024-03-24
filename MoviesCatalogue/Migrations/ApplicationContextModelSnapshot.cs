@@ -237,7 +237,7 @@ namespace MoviesCatalogue.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
 
                     b.HasData(
                         new
@@ -288,7 +288,7 @@ namespace MoviesCatalogue.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Movies", (string)null);
+                    b.ToTable("Movies");
 
                     b.HasData(
                         new
@@ -326,6 +326,9 @@ namespace MoviesCatalogue.Migrations
             modelBuilder.Entity("MoviesCatalogue.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<int?>("Age")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
