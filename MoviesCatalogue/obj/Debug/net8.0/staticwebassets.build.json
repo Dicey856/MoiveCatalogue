@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yCRVdkCRs427xS3GvH6uumJTVpxCboVcTxpcvO0CsHU=",
+  "Hash": "MahFm0DcT0FiU1tWWDRLuVOmi5MWFevZwqtXP+8d9kM=",
   "Source": "MoviesCatalogue",
   "BasePath": "_content/MoviesCatalogue",
   "Mode": "Default",
@@ -1307,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movie\\0bce734c-abef-4211-94c8-122acb001f31.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\38828454-216d-4dfb-99cb-2205b2b32bb2.jpg",
+      "SourceId": "MoviesCatalogue",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\",
+      "BasePath": "_content/MoviesCatalogue",
+      "RelativePath": "images/movie/38828454-216d-4dfb-99cb-2205b2b32bb2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movie\\38828454-216d-4dfb-99cb-2205b2b32bb2.jpg"
     },
     {
       "Identity": "C:\\Users\\gameb\\Desktop\\Programming\\ASP.NET\\MoiveCatalogue\\MoviesCatalogue\\wwwroot\\images\\movie\\4cf4f0d8-268b-4888-a107-4bb241479653.jpg",
